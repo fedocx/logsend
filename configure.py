@@ -4,12 +4,12 @@
 import ConfigParser
 
 class Configure:
-    def __init__():
-        configurefile="logdata.conf"
-        filename="FILENAME"
-        firstline="FIRSTLINE"
-        lastline="LASTLINE"
-        linenum="LINENUM"
+    configurefile="logdata.conf"
+    filename="FILENAME"
+    firstline="FIRSTLINE"
+    lastline="LASTLINE"
+    linenum="LINENUM"
+    def __init__(self):
         config = ConfigParser.ConfigParser()
         self.config.read(self.configurefile)
         self.config.add_section(self.firstline)

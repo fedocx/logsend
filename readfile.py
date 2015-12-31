@@ -3,7 +3,7 @@
 import ConfigParser
 import configure
 
-class readfiles:
+class readfile:
     def __init__():
         firstline=a
         lastline=a
@@ -33,7 +33,7 @@ class readfiles:
         self.firstline=configure.getoption("FIRSTLINE",filename)
         self.lastline=configure.getoption("LASTLINE",filename)
         self.linenum=configure.getoption("LINENUM",filename)
-
+        
     def getvaluefromfile(filename)
         try:
             srcfile=open(filename,'r')
